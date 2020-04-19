@@ -150,15 +150,19 @@
                                                                                                                 <br><br>
  <ul>
 <li>1.  Each installation of the app has a single UUID. No personal information (name, date of birth, email address) would be harvested.</li>
-<li>2.  The app requires high-level access to Bluetooth information from the device, specifically the device’s MAC address and the MAC address of nearby devices (the device in question would be forced to broadcast its MAC).</li>
-<li>3.  Upon installation the application provides the user with a key code in order to seed the UUID. The user can supply a private key/password/biometric in order that the UUID can be revoked at any time by the user. The resultant UUID acts as the public key.</li>
-<li>4.  The date of observations.</li>
-<li>5.	Additional datasets might include the use of location-aware call descriptor records with suitably hashed subscriber attributes (already in common use for predictive churn analytics) subject to regulatory approval.</li>
+<br>
+         <li>2.  The app requires high-level access to Bluetooth information from the device, specifically the device’s MAC address and the MAC address of nearby devices (the device in question would be forced to broadcast its MAC).</li>
+<br>
+         <li>3.  Upon installation the application provides the user with a key code in order to seed the UUID. The user can supply a private key/password/biometric in order that the UUID can be revoked at any time by the user. The resultant UUID acts as the public key.</li>
+<br>
+         <li>4.  The date of observations.</li>
+<br>
+         <li>5.	Additional datasets might include the use of location-aware call descriptor records with suitably hashed subscriber attributes (already in common use for predictive churn analytics) subject to regulatory approval.</li>
 </ul>
  <br><br>                                                                                                             
  <h3>Architecture</h3>    
 <br><br>
-  <h4>Ingest</h4>  
+  <h4>Ingest</h4>  <br><br>
 <p>In order to run this technology at large scale and considering the millions of population, the architecture of the app should be highly scalable and carefully designed to ensure the consistency, data security and integrity.
    <br><br>
 Apache Nifi and Apache Kafka are ideal technology solutions for such type of Apps which is used by millions of users. Many of well known companies are also using these technologies to serve their features to large user database.
