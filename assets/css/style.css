@@ -1196,7 +1196,7 @@ p {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
   .single-blog .blog-content {
-    width: 75%;
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
