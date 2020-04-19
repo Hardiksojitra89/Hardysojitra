@@ -134,8 +134,54 @@
     <br><br>
      Many national governments and healthcare bodies are working on development of Contract Tracing Mobile apps to stop the corona virus pandemic. Even some of the countries like India have made it mandatory for its government staff reporting to duty in office or in the field to download and activate the government's Contact Tracing mobile application '<a href="https://www.mygov.in/aarogya-setu-app/">Arogya Setu</a>'.
     </p>
+        <br><br>
    <h2 class="blog-title">Let’s learn how the contact tracing or Covid-19 tracking app works</h2> 
-    
+    <br><br>
+        <p>In simple words, these apps used to alert the people who have come into contact with someone who was pre-symptomatic (Covid-19 Positive) in order to allow them to self-isolate. By using such apps, one can trace the contacts and if any of the contact detects virus positive later, then the App user can immediately go into self-isolation and take further medical steps.
+        <br><br>
+                Users who download the app to their phone can voluntarily opt-in to record details of their symptoms when they start feeling unwell or find any similar symptoms.
+                <br><br>
+                If that App user is later confirmed to have been infected by Corona Virus, an alert will be sent to others with the app who have been in close proximity to the infected individual.
+        </p>
+        <br><br>
+        <img src=""https://hardysojitra.com/assets/images/Contact%20Tracing%20App.png" alt="Contact Tracing App"></img>
+        <br><br>
+        <h3>Data Model</h3>
+                                                                                                                <br><br>
+ <ul>
+<li>1.  Each installation of the app has a single UUID. No personal information (name, date of birth, email address) would be harvested.</li>
+<li>2.  The app requires high-level access to Bluetooth information from the device, specifically the device’s MAC address and the MAC address of nearby devices (the device in question would be forced to broadcast its MAC).</li>
+<li>3.  Upon installation the application provides the user with a key code in order to seed the UUID. The user can supply a private key/password/biometric in order that the UUID can be revoked at any time by the user. The resultant UUID acts as the public key.</li>
+<li>4.  The date of observations.</li>
+<li>5.	Additional datasets might include the use of location-aware call descriptor records with suitably hashed subscriber attributes (already in common use for predictive churn analytics) subject to regulatory approval.</li>
+</ul>
+ <br><br>                                                                                                             
+ <h3>Architecture</h3>    
+<br><br>
+  <h4>Ingest</h4>  
+<p>In order to run this technology at large scale and considering the millions of population, the architecture of the app should be highly scalable and carefully designed to ensure the consistency, data security and integrity.
+   <br><br>
+Apache Nifi and Apache Kafka are ideal technology solutions for such type of Apps which is used by millions of users. Many of well known companies are also using these technologies to serve their features to large user database.
+      <br><br>
+Where streaming analytics is required, perhaps to provide real-time analytics of the extent to which geo-specific social-distancing measures are reducing the number of potential transmission opportunities, Apache Flink and/or Apache Spark with Structured Streaming could both be used.                                                                                               
+</p>
+  <br><br>
+ <h4>Storage</h4>
+  <br><br>
+<p>For the data database layer we need a solution that can deal with high throughput streaming ingest as well as fast random access and good scan performance. Cloud servers are the best suitable for such type of apps with large number of users to avoid crashing and fast navigation.</p>
+  <br><br>
+  <h4>Alerting</h4>   
+    <br><br>
+<p>The contact tracing algorithm comes into play when there is an alert message that indicates that an individual possibly or is confirmed to be infected with Corona Virus. The system will start to trace those Bluetooth MAC addresses that have been observed by App installed in patient’s device.
+<br><br>
+Once the list of contacts identified, the alert message will be sent to those individuals.
+<br><br> 
+In case if you have any questions related to this article, feel free to contact me. 
+<br><br> 
+If want me to me write an article on any specific topic, please write me at -> bizdevhardik@gmail.com. 
+<br><br> 
+Or if you want to develop similar app, let’s discuss the project…
+</p>
 </div> <!-- Blog Eng Div -->
 </div> 
 </div>
