@@ -1,1 +1,364 @@
-Text sample
+<!doctype html>
+<html lang="en">
+
+<head>
+
+        <!--====== GA ======-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163516352-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163516352-1');
+</script>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Flutter is Google’s mobile UI framework to provide fast and expressive way for developers to develop native Apps for iOS and Android from the single code base.">
+    <meta name="keywords" content="Flutter app development, Why Flutter, Why not Flutter, Hot Reload Feature, Mobile app Development, What is Dart">
+    <meta name="author" content="Hardy Sojitra">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>5 Reasons Why Flutter is a Good Mobile App Framework</title>
+
+    <!--====== Favicon Icon 
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"> ======-->
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="https://hardysojitra.com/assets/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="https://hardysojitra.com/assets/css/LineIcons.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="https://hardysojitra.com/assets/css/magnific-popup.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="https://hardysojitra.com/assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="https://hardysojitra.com/assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader_34">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER ENDS START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header id="home" class="header-area">
+        <div class="navigation fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="https://hardysojitra.com">
+                                Hardy Sojitra
+                              <!--  <img src="assets/images/logo.png" alt="Logo"> -->
+                            </a> <!-- Logo -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active"><a class="page-scroll" href="https://hardysojitra.com/">Home</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="https://hardysojitra.com/#about">About</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="https://hardysojitra.com/#service">Services</a></li>
+                                    <!-- <li class="nav-item"><a class="page-scroll" href="https://hardysojitra.com/#work">Portfolio</a></li> -->
+                                    <li class="nav-item"><a class="page-scroll" href="https://hardysojitra.com/#blog">Blog</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="https://hardysojitra.com/#contact">Contact</a></li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navigation -->
+<div class="page-banner bg_cover" style="background-image: url(https://hardysojitra.com/assets/images/howtohostongithub.png)" data-overlay="2">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="page-banner-content text-center">
+ <h1 class="page-title">5 Reasons Why The Flutter Is A Good Mobile App Framework</h1>
+</div> 
+</div>
+</div> 
+</div> 
+</div> 
+</header>
+
+
+<section id="blog" class="single-blog-page pt-80 pb-130">
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
+<div class="single-blog-post mt-50">
+<!-- <div class="blog-thumb">
+<img src="https://hardysojitra.com/assets/images/blog/bolg-detailes/bolg-detailes.jpg" alt="Blog Details">
+</div> -->
+<div class="blog-content">
+<!-- <h3 class="blog-title">Nobody Knows What’s Gonna Happen & Make something</h3> -->
+<ul class="meta">
+<li><a href="#"><i class="lni-calendar"></i> 24 May, 2020</a></li>
+<!-- <li><a href="#"><i class="lni-heart"></i> 50 Likes</a></li> -->
+<li><a href="#"><i class="lni-user"></i> Hardy Sojitra</a></li>
+</ul>
+    <p class="pt-15">Before jumping on whether the Flutter is good choice or not, and how it is different from other mobile app platforms, let’s first learn what’s the Flutter?
+    <br><br>
+    Mobile users expect to have beautiful designs, smoother animations, and great performance. To fulfill this, developers needs to create new features faster than ever without compromising quality and performance of the mobile app. To meet this, Flutter came into existence.
+    <br><br>
+Flutter is Google’s mobile UI framework to provide fast and expressive way for developers to develop native Apps for iOS and Android from the single code base. Flutter uses the Google’s own programming language called Dart which is a powerful language to build the apps.
+<br><br>
+Let’s check the pros and cons of Flutter to get better idea whether one should use it to achieve their business requirement.    
+</p>
+        
+        
+        
+        
+        
+</div> <!-- Blog Eng Div -->
+</div> 
+</div>
+<div class="col-lg-4">
+<div class="blog-sidebar"> 
+<div class="sidebar-post mt-50">
+<h4 class="sidebar-title">Recent Post</h4>
+<ul>
+<li>
+<div class="single-sidebar-post d-flex">
+<div class="post-thumb">
+<a href="#"><img src="https://hardysojitra.com/assets/images/git70x68.png" alt="Learn how to host static website for free on Github pages"></a>
+</div>
+<div class="post-content media-body">
+<h5 class="post-title"><a href="https://hardysojitra.com/blogs/host-HTML-website-for-free-on-github.html">Learn how to host static website for free on Github pages</a></h5>
+<span><i class="lni-calendar"></i> 12 April, 2020</span>
+</div>
+</div> 
+</li>
+<li>
+<div class="single-sidebar-post d-flex">
+<div class="post-thumb">
+<a href="#"><img src="https://hardysojitra.com/assets/images/blog/bolg-detailes/sidebar-post/p-2.jpg" alt="Post"></a>
+</div>
+<div class="post-content media-body">
+<h5 class="post-title"><a href="https://hardysojitra.com/blogs/what-is-contact-tracing-app.html">What is Contact Tracing App or Covid-19 Tracking App and how it works</a></h5>
+<span><i class="lni-calendar"></i> 19 April, 2020</span>
+</div>
+</div> 
+</li>
+<li>
+<div class="single-sidebar-post d-flex">
+<div class="post-thumb">
+<a href="#"><img src="https://hardysojitra.com/assets/images/blog/bolg-detailes/sidebar-post/p-3.jpg" alt="Post"></a>
+</div>
+<div class="post-content media-body">
+<h5 class="post-title"><a href="#">Coming Soon</a></h5>
+<span><i class="lni-calendar"></i> 20 May, 2020</span>
+</div>
+</div> 
+</li>
+</ul>
+</div> 
+<!-- <div class="sidebar-category mt-50">
+<h4 class="sidebar-title pb-10">Catagory</h4>
+<ul>
+<li><a href="#">Technology <span>(32)</span></a></li>
+<li><a href="#">Finance <span>(25)</span></a></li>
+<li><a href="#">Web Design <span>(17)</span></a></li>
+<li><a href="#">Consultation <span>(03)</span></a></li>
+<li><a href="#">Development <span>(13)</span></a></li>
+</ul>
+</div> -->
+ 
+</div> 
+</div>
+</div> 
+</div> 
+</section>
+ 
+ <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center pb-25">
+                        <h2 class="title">Get In Touch</h2>
+                        <p>Tell me what you have in mind? I guarantee to get back to you within a business day.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-map-marker"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Address</h6>
+                            <p>Ahmedabad, India</p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-phone"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Phone</h6>
+                            <p>+91 9265307012</p>
+                            
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="contact-box text-center mt-30">
+                        <div class="contact-icon">
+                            <i class="lni-envelope"></i>
+                        </div>
+                        <div class="contact-content">
+                            <h6 class="contact-title">Email</h6>
+                            <p>bizdevhardik@gmail.com</p>
+                        </div>
+                    </div> <!-- contact box -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form pt-30">
+                        <form id="contact-form" action="assets/contact.php">
+                            <div class="single-form">
+                                <input type="text" name="name" placeholder="Name">
+                            </div> <!-- single form -->
+                            <div class="single-form">
+                                <input type="email" name="email" placeholder="Email">
+                            </div> <!-- single form -->
+                            <div class="single-form">
+                                <textarea name="message" placeholder="Message"></textarea>
+                            </div> <!-- single form -->
+                            <p class="form-message"></p>
+                            <div class="single-form">
+                                <button class="main-btn" type="submit">Send Message</button>
+                            </div> <!-- single form -->
+                        </form>
+                    </div> <!-- contact form -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-map mt-60">
+                        <div class="gmap_canvas">                            
+                            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.5039358862846!2d72.5439565144439!3d23.115248418659746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82eb39fadd7f%3A0xae0fbae7d22faeb8!2sMalabar%20County%20Rd%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1586623459298!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div> <!-- contact map -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area">
+        
+        <div class="footer-copyright pb-20">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="footer-content text-center">
+                            <ul>
+                               <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                               <li><a href="https://twitter.com/TweetBizDev"><i class="lni-twitter-original"></i></a></li>
+                            <!--   <li><a href="https://github.com/Hardiksojitra89"><i class="lni-github-original"></i></a></li> -->
+                               <li><a href="https://www.linkedin.com/in/hardik-sojitra-7b671094/"><i class="lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div> <!-- footer content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text text-center pt-20">
+                            <p>ALL RIGHTS RESERVED © - <a href="https://hardysojitra.com/" rel="nofollow">Hardy Sojitra</a></p>
+                        </div> <!-- copyright text -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="https://hardysojitra.com/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://hardysojitra.com/assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="https://hardysojitra.com/assets/js/bootstrap.min.js"></script>
+    <script src="https://hardysojitra.com/assets/js/popper.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="https://hardysojitra.com/assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Parallax js ======-->
+    <script src="https://hardysojitra.com/assets/js/parallax.min.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="https://hardysojitra.com/assets/js/waypoints.min.js"></script>
+    <script src="https://hardysojitra.com/assets/js/jquery.counterup.min.js"></script>
+
+
+    <!--====== Appear js ======-->
+    <script src="https://hardysojitra.com/assets/js/jquery.appear.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="https://hardysojitra.com/assets/js/scrolling-nav.js"></script>
+    <script src="https://hardysojitra.com/assets/js/jquery.easing.min.js"></script>
+
+
+    <!--====== Main js ======-->
+    <script src="https://hardysojitra.com/assets/js/main.js"></script>
+
+</body>
+
+</html>
