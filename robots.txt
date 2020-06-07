@@ -1,5 +1,9 @@
-https://hardysojitra.com/
-https://hardysojitra.com/#about
-https://hardysojitra.com/blogs/5-Reasons-Why-Flutter-is-a-Good-Mobile-App-Framework.html
-https://hardysojitra.com/blogs/what-is-contact-tracing-app.html
-https://hardysojitra.com/blogs/host-HTML-website-for-free-on-github.html
+# Group 1
+User-agent: Googlebot
+Allow: /
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://hardysojitra.com/sitemap.txt
